@@ -46,6 +46,7 @@ func init() {
 
 	rootCmd.AddCommand(wordCmd)
 	rootCmd.AddCommand(timerCmd)
+	rootCmd.AddCommand(sqlCmd)
 }
 
 // initConfig reads in config file and ENV variables if set.
